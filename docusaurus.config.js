@@ -43,7 +43,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale,
-    locales: ["en", "de", "es", "fr", "id", "pt", "ru", "tr", "uk", "vi", "zh"],
+    locales: ["en", "de", "es", "fr", "id", "ru", "tr", "uk", "vi", "zh"],
   },
   
   markdown: {
@@ -90,28 +90,6 @@ const config = {
           { to: '/staking/stake', from: ['/docs/farming-&-staking/staking/'] },
 
           { to: '/timekeeping', from: ['/docs/protocol/timekeeping', '/docs/farming-&-staking/timekeeping', '/farming/timekeeper'] },
-
-          // Develop
-          // Since external redirects are not supported, redirects are happening on each corresponding page. Redirects below are necessary to ensure that legacy links are still working.
-          { to: '/develop/intro', from: ['/docs/category/developer-documentation/', '/docs/developers/intro/', '/docs/category/develop', '/docs/develop/intro'] },
-
-          { to: '/develop/auto-sdk', from: ['/docs/category/develop-using-auto-sdk'] },
-          { to: '/develop/auto-sdk/intro', from: ['/docs/develop/auto_sdk/intro'] },
-          { to: '/develop/auto-sdk/consensus', from: ['/docs/develop/auto_sdk/auto-consensus'] },
-          { to: '/develop/auto-sdk/auto-id', from: ['/docs/develop/auto_sdk/auto-id'] },
-          { to: '/develop/auto-sdk/xdm', from: ['/docs/develop/auto_sdk/auto-xdm'] },
-          { to: '/develop/auto-sdk/utils', from: ['/docs/develop/auto_sdk/auto-utils'] },
-
-          { to: '/develop/auto-evm', from: ['/docs/category/develop-on-nova-evm', '/develop/nova'] },
-          { to: '/develop/auto-evm/introduction', from: ['/docs/develop/nova/quick_start', '/develop/nova/introduction'] },
-          { to: '/develop/auto-evm/general', from: ['/docs/develop/nova/general-information', '/develop/nova/general'] },
-          { to: '/develop/auto-evm/metamask', from: ['/docs/develop/nova/setting-up-metamask', '/develop/nova/metamask'] },
-          { to: '/develop/auto-evm/guides/foundry', from: ['/docs/develop/nova/foundry_guide', '/develop/nova/guides/foundry'] },
-          { to: '/develop/auto-evm/guides/hardhat', from: ['/docs/develop/nova/hardhat_guide', '/develop/nova/guides/hardhat'] },
-          { to: '/develop/auto-evm/guides/local-development', from: ['/docs/develop/nova/local_development', '/develop/nova/guides/local-development'] },
-          { to: '/develop/auto-evm/guides/remix', from: ['/docs/develop/nova/remix_guide', '/develop/nova/guides/remix'] },
-          { to: '/develop/auto-evm/faucet', from: ['/docs/develop/nova/faucet', '/develop/nova/faucet'] },
-          { to: '/develop/auto-evm/block-explorer', from: ['/docs/develop/nova/block_explorer', '/develop/nova/block-explorer'] },
 
           // Community (formerly Participate)
           { to: '/community/contribute/intro', from: ['/participate/contribute/intro', '/docs/community/contribute/', '/docs/category/participate'] },
